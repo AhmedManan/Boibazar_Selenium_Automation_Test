@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T19:39:39 BDT" name="Default suite" finished-at="2024-02-13T19:39:48 BDT" duration-ms="9069">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T19:39:39 BDT" name="Default test" finished-at="2024-02-13T19:39:48 BDT" duration-ms="9069">
+      <class name="com.automation.BaseUrlTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.automation.BaseUrlTest@75437611]" started-at="2024-02-13T19:39:36 BDT" name="startBrowser" finished-at="2024-02-13T19:39:39 BDT" duration-ms="3117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="OpenUrl()[pri:0, instance:com.automation.BaseUrlTest@75437611]" started-at="2024-02-13T19:39:39 BDT" name="OpenUrl" finished-at="2024-02-13T19:39:48 BDT" duration-ms="9034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.BaseUrlTest@75437611]" started-at="2024-02-13T19:39:48 BDT" name="close" finished-at="2024-02-13T19:39:48 BDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.automation.BaseUrlTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
