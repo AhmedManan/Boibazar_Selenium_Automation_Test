@@ -15,7 +15,7 @@ public class BaseDriver {
 	
 	@BeforeSuite
 	public void startBrowser(){
-		String browserName = System.getProperty("browser", "chorme");
+		String browserName = System.getProperty("browser", "chrome");
 		
 		if(browserName.equals("chrome")){
 			WebDriverManager.chromedriver().setup();
