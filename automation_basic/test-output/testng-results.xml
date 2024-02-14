@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-15T03:03:05 BDT" name="Default suite" finished-at="2024-02-15T03:03:19 BDT" duration-ms="14237">
+  <suite started-at="2024-02-15T03:32:21 BDT" name="Default suite" finished-at="2024-02-15T03:32:34 BDT" duration-ms="13025">
     <groups>
     </groups>
-    <test started-at="2024-02-15T03:03:05 BDT" name="Default test" finished-at="2024-02-15T03:03:19 BDT" duration-ms="14237">
-      <class name="com.automation.TestBooksByWritter">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.automation.TestBooksByWritter@350aac89]" started-at="2024-02-15T03:03:03 BDT" name="startBrowser" finished-at="2024-02-15T03:03:05 BDT" duration-ms="1445" status="PASS">
+    <test started-at="2024-02-15T03:32:21 BDT" name="Default test" finished-at="2024-02-15T03:32:34 BDT" duration-ms="13025">
+      <class name="com.automation.SelectBooksByCategory">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.automation.SelectBooksByCategory@350aac89]" started-at="2024-02-15T03:32:20 BDT" name="startBrowser" finished-at="2024-02-15T03:32:21 BDT" duration-ms="1317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="SelectWritter()[pri:0, instance:com.automation.TestBooksByWritter@350aac89]" started-at="2024-02-15T03:03:05 BDT" name="SelectWritter" finished-at="2024-02-15T03:03:19 BDT" duration-ms="14203" status="PASS">
+        <test-method signature="SelectCategory()[pri:0, instance:com.automation.SelectBooksByCategory@350aac89]" started-at="2024-02-15T03:32:21 BDT" name="SelectCategory" finished-at="2024-02-15T03:32:34 BDT" duration-ms="12993" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectWritter -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.TestBooksByWritter@350aac89]" started-at="2024-02-15T03:03:19 BDT" name="close" finished-at="2024-02-15T03:03:19 BDT" duration-ms="327" status="PASS">
+        </test-method> <!-- SelectCategory -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.SelectBooksByCategory@350aac89]" started-at="2024-02-15T03:32:34 BDT" name="close" finished-at="2024-02-15T03:32:34 BDT" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.automation.TestBooksByWritter -->
+      </class> <!-- com.automation.SelectBooksByCategory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

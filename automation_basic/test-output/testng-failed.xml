@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.BooksByWritter">
+      <class name="com.automation.SelectBooksByCategory">
         <methods>
-          <include name="SelectWritter"/>
           <include name="close"/>
           <include name="startBrowser"/>
+          <include name="SelectCategory"/>
         </methods>
-      </class> <!-- com.automation.BooksByWritter -->
+      </class> <!-- com.automation.SelectBooksByCategory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
